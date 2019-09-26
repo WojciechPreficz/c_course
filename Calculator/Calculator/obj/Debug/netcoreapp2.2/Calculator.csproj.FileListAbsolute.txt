@@ -1,0 +1,11 @@
+C:\Users\WPrefic\Downloads\Course\Calculator\Calculator\bin\Debug\netcoreapp2.2\Calculator.deps.json
+C:\Users\WPrefic\Downloads\Course\Calculator\Calculator\bin\Debug\netcoreapp2.2\Calculator.runtimeconfig.json
+C:\Users\WPrefic\Downloads\Course\Calculator\Calculator\bin\Debug\netcoreapp2.2\Calculator.runtimeconfig.dev.json
+C:\Users\WPrefic\Downloads\Course\Calculator\Calculator\bin\Debug\netcoreapp2.2\Calculator.dll
+C:\Users\WPrefic\Downloads\Course\Calculator\Calculator\bin\Debug\netcoreapp2.2\Calculator.pdb
+C:\Users\WPrefic\Downloads\Course\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.csprojAssemblyReference.cache
+C:\Users\WPrefic\Downloads\Course\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\WPrefic\Downloads\Course\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.AssemblyInfoInputs.cache
+C:\Users\WPrefic\Downloads\Course\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.AssemblyInfo.cs
+C:\Users\WPrefic\Downloads\Course\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.dll
+C:\Users\WPrefic\Downloads\Course\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.pdb

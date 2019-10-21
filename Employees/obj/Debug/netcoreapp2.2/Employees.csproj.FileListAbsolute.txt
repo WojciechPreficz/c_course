@@ -1,0 +1,11 @@
+C:\Users\WPrefic\Downloads\Course\ERP\Employees\obj\Debug\netcoreapp2.2\Employees.csproj.CoreCompileInputs.cache
+C:\Users\WPrefic\Downloads\Course\ERP\Employees\obj\Debug\netcoreapp2.2\Employees.AssemblyInfoInputs.cache
+C:\Users\WPrefic\Downloads\Course\ERP\Employees\obj\Debug\netcoreapp2.2\Employees.AssemblyInfo.cs
+C:\Users\WPrefic\Downloads\Course\ERP\Employees\bin\Debug\netcoreapp2.2\Employees.deps.json
+C:\Users\WPrefic\Downloads\Course\ERP\Employees\bin\Debug\netcoreapp2.2\Employees.runtimeconfig.json
+C:\Users\WPrefic\Downloads\Course\ERP\Employees\bin\Debug\netcoreapp2.2\Employees.runtimeconfig.dev.json
+C:\Users\WPrefic\Downloads\Course\ERP\Employees\bin\Debug\netcoreapp2.2\Employees.dll
+C:\Users\WPrefic\Downloads\Course\ERP\Employees\bin\Debug\netcoreapp2.2\Employees.pdb
+C:\Users\WPrefic\Downloads\Course\ERP\Employees\obj\Debug\netcoreapp2.2\Employees.dll
+C:\Users\WPrefic\Downloads\Course\ERP\Employees\obj\Debug\netcoreapp2.2\Employees.pdb
+C:\Users\WPrefic\Downloads\Course\ERP\Employees\obj\Debug\netcoreapp2.2\Employees.csprojAssemblyReference.cache

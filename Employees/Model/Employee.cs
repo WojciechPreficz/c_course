@@ -4,37 +4,23 @@ using System.Text;
 
 namespace Employees.Model
 {
-    public enum TypeOfContract
+    public class Employee : BaseEmployee
     {
-        EmploymentContrat,
-        SpecificTaskContract
-    }
-    public class Employee : IEmployee
-    {
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public TypeOfContract Contract;
-        public int Wage;
 
-        public Employee(string name, string surname, TypeOfContract contract, int wage)
+        public Employee(string name, string surname, int wage, int id): base(name,surname,wage, id)
         {
-            Name = name;
-            Surname = surname;
-            Contract = contract;
-            Wage = wage;
         }
 
-        public void CalculateCharge(TypeOfContract contract, int wage)
+        public override TypeOfContract TypeOfContract => TypeOfContract.EmploymentContrat;
+
+        public override void CalculateCharge(int wage)
         {
-            if(contract == TypeOfContract.EmploymentContrat)
-            {
-                var totalCost = wage * 140 / 100;
-                Console.WriteLine($"Cost is {totalCost}");
-            } else
-            {
-                var totalCost = wage * 180 / 100;
-                Console.WriteLine($"Cost is {totalCost}");
-            }
+                Console.WriteLine($"Cost is {wage * 180 / 100}");
         }
+
+        //public override TypeOfContract GetContractType()
+        //{
+        //    return TypeOfContract.EmploymentContrat;
+        //}
     }
 }

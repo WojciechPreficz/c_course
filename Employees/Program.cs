@@ -1,12 +1,14 @@
-﻿using Employees.Model;
+﻿using Employees.Factories;
+using Employees.Model;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Employees
 {
     class Program
     {
-        static List<Employee> ListOfEmployees = new List<Employee>();
+        static List<BaseEmployee> ListOfEmployees = new List<BaseEmployee>();
         static void Main(string[] args)
         {
             bool runProgramAgain;
@@ -78,9 +80,16 @@ namespace Employees
                     else newEmployeeContractEnum = TypeOfContract.EmploymentContrat;
 
                     Console.WriteLine("Please type a wage");
-                    newEmployeeWage = Convert.ToInt32(Console.ReadLine());
+                    bool isSuccess;
+                    int result;
 
-                    CreateNewEmployee(newEmployeeName, newEmployeeSurname, newEmployeeContractEnum, newEmployeeWage);
+                    do
+                    {
+                        isSuccess = int.TryParse(Console.ReadLine(), out result);
+                    } while (!isSuccess);
+
+                        CreateNewEmployee(newEmployeeName, newEmployeeSurname, newEmployeeContractEnum, result);
+
                     break;
                 case "C":
                     Console.WriteLine("If you want to display cost of employee from list please select index");
@@ -100,15 +109,32 @@ namespace Employees
 
         static void CreateNewEmployee(string name, string surname, TypeOfContract typeOfContract, int wage)
         {
-            Employee employee = new Employee(name, surname, typeOfContract, wage);
+            BaseEmployee employee;
+            var id = ListOfEmployees.Select(e => e.EmployeeId).DefaultIfEmpty(-1).Max() + 1;
+            //if(typeOfContract == TypeOfContract.EmploymentContrat)
+            //{
+            //    employee = new Employee(name, surname, wage, id);
+            //} else
+            //{
+            //    employee = new SpecificEmployee(name, surname, wage,id);
+            //}
+            employee = EmployeeFactory.CreateEmployee(new RequestEmployee()
+            {
+                Name = name,
+                Surname = surname,
+                TypeOfContract = typeOfContract,
+                Wage = wage,
+                EmployeeId = id,
+            });
             ListOfEmployees.Add(employee);
         }
 
         static void RemoveEmployee(int employeeIndex)
         {
-            if (ListOfEmployees.Count > 0)
+            var employeeToBeRemoved = ListOfEmployees.FirstOrDefault(e => e.EmployeeId == employeeIndex);
+            if (employeeToBeRemoved != null)
             {
-                ListOfEmployees.RemoveAt(employeeIndex);
+                ListOfEmployees.Remove(employeeToBeRemoved);
             } else if(employeeIndex > ListOfEmployees.Count) {
                 Console.WriteLine("There is no employee with this index");
             } else
@@ -119,9 +145,10 @@ namespace Employees
 
         static void ShowCost(int index)
         {
-            if(ListOfEmployees.Count > 0 && index < ListOfEmployees.Count)
+            var employeeToShowCost = ListOfEmployees.FirstOrDefault(e => e.EmployeeId == index);
+            if (employeeToShowCost != null)
             {
-                ListOfEmployees[index].CalculateCharge(ListOfEmployees[index].Contract, ListOfEmployees[index].Wage);
+                ListOfEmployees[index].CalculateCharge(ListOfEmployees[index].Wage);
             } else
             {
                 Console.WriteLine("There is no employeee with this index");
@@ -131,8 +158,8 @@ namespace Employees
         static void ShowListOfEmployees()
         {
             if(ListOfEmployees.Count > 0) {
-                foreach (Employee SingleEmployee in ListOfEmployees) {
-                    Console.WriteLine($"Name: {SingleEmployee.Name} Surname: {SingleEmployee.Surname} Type of contract: {SingleEmployee.Contract} Wage: {SingleEmployee.Wage}");
+                foreach (var SingleEmployee in ListOfEmployees) {
+                    Console.WriteLine($"Name: {SingleEmployee.Name} Surname: {SingleEmployee.Surname} Type of contract: {SingleEmployee.TypeOfContract} Wage: {SingleEmployee.Wage} Id: {SingleEmployee.EmployeeId}");
                 }
             } else {
                 Console.WriteLine("There are no employees");

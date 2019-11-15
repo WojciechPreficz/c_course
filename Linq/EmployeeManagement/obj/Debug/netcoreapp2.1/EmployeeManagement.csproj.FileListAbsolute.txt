@@ -1,0 +1,15 @@
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeeManagement\bin\Debug\netcoreapp2.1\empList.json
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeeManagement\bin\Debug\netcoreapp2.1\EmployeeManagement.deps.json
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeeManagement\bin\Debug\netcoreapp2.1\EmployeeManagement.runtimeconfig.json
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeeManagement\bin\Debug\netcoreapp2.1\EmployeeManagement.runtimeconfig.dev.json
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeeManagement\bin\Debug\netcoreapp2.1\EmployeeManagement.dll
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeeManagement\bin\Debug\netcoreapp2.1\EmployeeManagement.pdb
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeeManagement\bin\Debug\netcoreapp2.1\EmployeePersistence.dll
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeeManagement\bin\Debug\netcoreapp2.1\EmployeePersistence.pdb
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.csprojAssemblyReference.cache
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.csproj.CoreCompileInputs.cache
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.AssemblyInfoInputs.cache
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.AssemblyInfo.cs
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.csproj.CopyComplete
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.dll
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.pdb

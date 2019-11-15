@@ -1,0 +1,10 @@
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeePersistence\bin\Debug\netstandard2.0\empList.json
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeePersistence\bin\Debug\netstandard2.0\EmployeePersistence.deps.json
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeePersistence\bin\Debug\netstandard2.0\EmployeePersistence.dll
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeePersistence\bin\Debug\netstandard2.0\EmployeePersistence.pdb
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeePersistence\obj\Debug\netstandard2.0\EmployeePersistence.csprojAssemblyReference.cache
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeePersistence\obj\Debug\netstandard2.0\EmployeePersistence.csproj.CoreCompileInputs.cache
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeePersistence\obj\Debug\netstandard2.0\EmployeePersistence.AssemblyInfoInputs.cache
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeePersistence\obj\Debug\netstandard2.0\EmployeePersistence.AssemblyInfo.cs
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeePersistence\obj\Debug\netstandard2.0\EmployeePersistence.dll
+C:\Users\WPrefic\Downloads\Course\Linq\EmployeePersistence\obj\Debug\netstandard2.0\EmployeePersistence.pdb
